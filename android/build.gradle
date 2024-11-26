@@ -42,5 +42,9 @@ android {
         minSdk = 16
     }
 
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
 }
 
